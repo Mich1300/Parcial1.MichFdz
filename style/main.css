@@ -1,3 +1,5 @@
+
+
 .container__circulito{
     width: 300px;
     height: 300px;
@@ -17,6 +19,12 @@
     top: 50%;
     background-color: rebeccapurple;
     transform-origin: left center;
-    transition: transform 0.3s ease-in-out 0s;
+    transition: transform 0.2s ease-in-out 0s;
     transform: rotate(203deg);
+}
+
+.container__number{
+    position:absolute;
+    left: 50%; 
+    top: 50%;
 }
